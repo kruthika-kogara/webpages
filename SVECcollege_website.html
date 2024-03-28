@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Vidyanikethan</title>
+    <link rel="icon" href="https://www.vidyavision.com/CollegeUploads/Logos/2016-29-6-10-29-08_sree-vidyanikethan-logo.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        /*--------------------------------------------------header---------------------------------------------*/
+        header>img{
+            margin-right: 30px;
+            margin-left: 200px;
+            height: 150px;
+            width: 200px;
+            display: inline;
+        }
+        .div1 a{
+            text-decoration: none;
+            padding: 5px;
+            color: black;
+            font-size: 13px;
+        }
+        .div1 a:hover{
+            background-color:#ED2D5A;
+            color: white;
+        }
+        .div2 a{
+            text-decoration: none;
+            font-size: 15px;
+            color: black;
+        }
+        .div1{
+            
+            padding-left: 85px;
+        }
+        .div2{
+            padding: 10px 10px 0px 374px;
+        }
+        .div3{
+            padding: 0px;
+        }
+        header{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        
+        .fa-brands{
+          font-size: 13px;
+          color: white;
+          background-color: black;
+           border-radius: 19px;
+           padding: 11px;
+        }
+        .f1{
+            background-color: #3B5998;
+        }
+        .f2{
+            background-color: #1DA1F2;
+        }
+        .f3{
+            background-color: #0077B4;
+        }
+        .f4{
+            background: linear-gradient(45deg,yellow 20%,rgb(245, 14, 14),rgb(242, 8, 195), rgb(11, 45, 238));
+        }
+        .f5{
+            background-color: #FF0000;
+        }
+        #div4{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row-reverse;
+            margin: 0px 20x 0px 100px;
+        }
+        #p1{
+            font-size: small;
+            text-align: justify;
+            margin: 15px 10px 0px 0px;
+            width: 382px;
+            height: 90px;
+        }
+        span{
+            font-size: 18px;
+            color:#ED2D5A;
+        }
+
+        /*--------------------------------------------navbar----------------------------------------------------*/
+
+        nav{
+            background-color: #27334F;
+            /*padding: 8px;*/
+            margin-top: 23px;
+            text-align: center; 
+            display: flex;
+            height: 40px;
+            padding:0px 150px;
+        }
+        nav .div a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            font-size: 13px;
+        }
+        nav .div{
+            padding: 6px 1px;
+            border-left: 1px solid #ED2D5A;
+        }
+        nav .div1{
+            background-color:#ED2D5A ;
+           padding: 4px 2px;
+        }
+        nav .div1 a{
+           color: white;
+        }
+        nav div:hover{
+            background-color: #F0577B;
+        }
+        /*---------------------------------campuslife-------------------*/
+        nav .dis{
+            padding: 4px 2px;
+           position: relative;
+        }
+        nav .dis .dis1 a{
+            display: block;
+            width: 200px;
+            text-align: left;
+            background-color: #27334F;
+            color: white;
+            text-decoration: none;
+            display: none;
+        }
+        .dis .dis1{
+            position: absolute;
+            top: 39px;
+            left: 1px;
+        }
+        .dis:hover .dis1 a{
+            display: block;
+        }
+        .dis .dis1 a:hover{
+            background-color: #F0577B;
+        }
+        /*------------------------------------about us-----------------------*/
+        nav .dis0{
+            padding: 4px 2px;
+           position: relative;
+        }
+        nav .dis0 .dis11 a{
+            display: block;
+            width: 280px;
+            text-align: left;
+            background-color: #27334F;
+            color: white;
+            text-decoration: none;
+            display: none;
+        }
+        .dis0 .dis11{
+            position: absolute;
+            top: 39px;
+            left: 1px;
+        }
+        .dis0:hover .dis11 a{
+            display: block;
+        }
+        .dis0 .dis11 a:hover{
+            background-color: #F0577B;
+        }
+        /*-----------------------------admissions---------------------------*/
+        nav .dis01{
+            padding: 4px 2px;
+           position: relative;
+        }
+        nav .dis01 .dis12 a{
+            display: block;
+            width: 230px;
+            text-align: left;
+            background-color: #27334F;
+            color: white;
+            text-decoration: none;
+            display: none;
+        }
+        .dis01 .dis12{
+            position: absolute;
+            top: 39px;
+            left: 1px;
+        }
+        .dis01:hover .dis12 a{
+            display: block;
+        }
+        .dis01 .dis12 a:hover{
+            background-color: #F0577B;
+        }
+        /*------------------------------academics-----------------------------*/
+        nav .dis02{
+            padding: 4px 2px;
+           position: relative;
+        }
+        nav .dis02 .dis13 a{
+            display: block;
+            width: 150px;
+            text-align: left;
+            background-color: #27334F;
+            color: white;
+            text-decoration: none;
+            display: none;
+        }
+        .dis02 .dis13{
+            position: absolute;
+            top: 39px;
+            left: 1px;
+        }
+        .dis02:hover .dis13 a{
+            display: block;
+        }
+        .dis02 .dis13 a:hover{
+            background-color: #F0577B;
+        }
+
+       /*-----------------------------------------------body-----------------------------------------------------*/
+        
+       .div7{
+        margin:0px;
+        display: flex;
+       }
+       #div5{
+        margin-left: 250px;
+        width: 530px;
+       }
+        #div6{
+           color: #F0577B;
+        }
+        /*--------------background img----------------*/
+        #card{
+            position: relative;
+        }
+        #card .card1 h1{
+            position:absolute;
+            font-size: 90px;
+            font-weight:600;
+            color: #ED2D5A;
+            top: 0;
+            transform: translate(150px,120px);
+            transition: width 2s,;
+        }
+        #card .card1 h2{
+            position:absolute;
+            font-family: 'Times New Roman', Times;
+            font-size: 28px;
+            color: white;
+            font-weight: light;
+            background-color: rgb(39, 51, 79,0.6);
+            border-left: 5px solid #ED2D5A;
+            top: 0;
+            transform: translate(150px,270px);
+            transition: width 2s,;
+        }
+        #card .clgimg{
+            height: 600px;
+            width: 100%;
+            transition: all 2s ease;
+        }
+        #card .clgimg:hover{
+            transform: rotateY(180deg);
+        }
+
+        /*------------------------------------------------------Aside(mohanbabu,Vishnumanchu)-------------------------------------*/
+        #aside0{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        #div9{
+            border: 1.5px solid #F0577B;
+            width: 390px;
+            margin: 5px 0px 0px 192px;
+            background-color: white;
+            
+        }
+        #div9>.quote1{
+            padding-left: 3px;
+        }
+        #div9>.quote2{
+            padding-left: 365px;
+        }
+        #div9>.quote{
+           display: none;
+        }
+        #div9:hover .quote{
+            display: block;
+        }
+        #div10{
+            background-color: white;
+            width: 360px;
+            height: 400px;
+            margin: 7px;
+            margin: 15px 15px 15px 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px grey;
+        }
+        #mohanbabuimg{
+            width: 352px;
+            height: 200px;
+            margin: 3px 2px 0px 4px;
+            border-radius: 15px;
+            box-shadow: 0px 1px 5px grey;
+        }
+        #div10 a p{
+            text-align: justify;
+            padding: 4px;
+        }
+        a{
+            text-decoration: none;
+        }
+        button{
+            border: 1px solid #27334F;
+            background-color: #27334F;
+            color: white;
+            border-radius: 2px;
+            margin-left: 270px;
+            margin-bottom: 13px;
+        }
+        #div10:hover{
+            display: block;
+            background-color: #27334F;
+            color: white;
+        }
+        a>h4{
+            text-align: center;
+            font-size: 17px;
+            font-weight:bold;
+        }
+
+        /*-------------------------------------------Aside(Notifications)--------------------------------------------------------*/
+        #div11{
+            margin: 5px 192px 0px 4px;
+        }
+        .div12{
+            border: 1.5px solid #F0577B;
+            border-radius: 4px;
+            width: 690px;
+            height: 600px;
+            border-bottom: 1px solid #F0577B;
+        }
+        .di{
+            height: 255px;
+            margin-top: 4px;
+        }
+        .div13{
+            padding: 5px 0px 10px 30px;
+        }
+        .div13>button{
+            margin-left: 550px;
+        }
+        .div12>.h5{
+            border-bottom: 1px solid #F0577B;
+            border-radius: 4px 4px 0px 0px;
+            background-color: #ED2D5A;
+            color: white;
+            margin-top: 0px;
+            height: 45px;
+            padding-top: 7px;
+            font-weight: bold;
+        }
+        ul{
+           line-height: 30px;
+        }
+        #div15{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .div16{
+            border: 1.5px solid #DDDDDD;
+            padding: 3px 4px;
+            margin:  5px 0px 0px 630px;
+            width: 40px;
+            height: 30px;
+        }
+        .div18{
+            border: 1.5px solid #DDDDDD;
+            padding: 3px 4px;
+            margin: 5px 18px 0px 0px;
+            width: 40px;
+            height: 30px;
+            color: #428BCA;
+        }
+        .div19{
+            border-top: solid 1px #ED2D5A;
+            background-color: #F5F5F5;
+            border-radius: 0px 0px 4px 4px;
+            display: flex;
+            margin-bottom:0px;
+            color: #428BCA;
+            margin-top: 14px;
+            height: 45px;
+        }
+        .div20{
+            margin-top: 0px;
+        }
+        .div17>button{
+            margin-left: 550px;
+            margin-right: 3px;
+            height: 30px;
+            width: 100px;
+        }
+        .div13 ul li:hover{
+            color: rgb(238, 53, 53);
+        }
+        /*--------------------------------------------------News and events---------------------------------------------------*/
+        .div21>#hp{
+            border-bottom: 1px solid #F0577B;
+            border-radius: 4px 4px 0px 0px;
+            background-color: #ED2D5A;
+            color: white;
+            margin-top: 4px;
+            margin-left: 186px;
+            height: 45px;
+            width: 1088px;
+            padding-top: 7px;
+            display: flex;
+            align-items: center;
+        }
+        #hp>h4{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        #hp>p{
+            padding-left: 795px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        #div22{
+            display: flex;
+            height: 288px;
+            width: 1088px;
+            margin-left: 186px;
+            margin-top: 8px;
+        }
+        .div23>img{
+            width: 356px;
+            height: 200px;
+        }
+        .main{
+            padding: 0px 5px;
+        }
+        .div24>img{
+            width: 356px;
+            height: 200px;
+        }
+        .div24{
+            height: 200px;
+            padding: 0px 5px 25px 0px;
+        }
+        .div25>img{
+            width: 352px;
+            height: 200px;
+        }
+        .main1{
+            font-size: 15px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px grey;
+            background-color: white;
+            color: #337AB7;
+            padding: 8px;
+        }
+        .div23:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+        .div24:hover{
+            box-shadow: 0px 0px 30px grey;
+        }
+        .div25:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+
+        /*----------------------------------------Achivements--------------------------------------------------------*/
+        .div26>#hp1{
+            border-bottom: 1px solid #F0577B;
+            border-radius: 4px 4px 0px 0px;
+            background-color: #ED2D5A;
+            color: white;
+            margin-top: 30px;
+            margin-left: 186px;
+            height: 45px;
+            width: 1088px;
+            padding-top: 7px;
+            display: flex;
+            align-items: center;
+        }
+        #hp1>h4{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        #hp1>p{
+            padding-left: 795px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        #div27{
+            display: flex;
+            height: 288px;
+            width: 1088px;
+            margin-left: 186px;
+            margin-top: 8px;
+        }
+        .div28>img{
+            width: 255px;
+            height: 200px;
+        }
+        .div29>img{
+            width: 255px;
+            height: 200px;
+        }
+        .div30>img{
+            width: 255px;
+            height: 200px;
+        }
+        .div31>img{
+            width: 255px;
+            height: 200px;
+        }
+        .main3{
+            font-size: 14px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px grey;
+            background-color: white;
+            color: #337AB7;
+            padding: 8px;
+        }
+        .div28:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+        .div29:hover{
+            box-shadow: 0px 0px 30px grey;
+        }
+        .div30:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+        .div31:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+
+        /*-----------------------------------Eminent people visited---------------------------------------------*/
+
+        .div37>#hp2{
+            border-bottom: 1px solid #F0577B;
+            border-radius: 4px 4px 0px 0px;
+            background-color: #ED2D5A;
+            color: white;
+            margin-top: 30px;
+            margin-left: 186px;
+            height: 45px;
+            width: 1088px;
+            padding-top: 7px;
+            display: flex;
+            align-items: center;
+        }
+        #hp2>h4{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        #hp2>p{
+            padding-left: 724px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+        .main5{
+            margin-top: 3px;
+            padding:0px 5px;
+            height: 362px;
+        }
+        #div32{
+            display: flex;
+            height: 370px;
+            width: 1088px;
+            margin-left: 186px;
+            margin-top: 8px;
+        }
+        .div33>img{
+            width: 272px;
+            height: 200px;
+        }
+        .div34>img{
+            width: 260px;
+            height: 200px;
+        }
+        .div35>img{
+            width: 260px;
+            height: 200px;
+        }
+        .div36>img{
+            width: 260px;
+            height: 200px;
+        }
+        .main6{
+            font-size: 12px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px grey;
+            background-color: white;
+            color: #337AB7;
+            padding: 8px;
+        }
+        .div36{
+            background-color: #27334F;
+            color: white;
+            height: 110px;
+            text-align: center;
+            padding: 2px;
+        }
+        .div33:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+        .div34:hover{
+            box-shadow: 0px 0px 30px grey;
+        }
+        .div35:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+        .div36:hover{
+            box-shadow: 0px 0px 20px grey;
+        }
+
+        /*-------------------------------------------------footer------------------------------------------------------------*/
+
+        #sec{
+            background-color: #27334F;
+            color: white;
+            display: flex;
+        }
+        .he1{
+            text-align: center;
+        }
+        .he1::after{
+            content: "";
+            display: block;
+            width: 800px;
+            height: 1px;
+            margin: 0px auto ;
+            margin-top: 7px;
+            background-color: rgb(253, 249, 249); 
+        }
+        .hea1{
+            text-align: center;
+        }
+        .hea1::after{
+            content: "";
+            display: block;
+            width: 350px;
+            height: 1px;
+            margin: 0px auto ;
+            margin-top: 7px;
+            background-color: rgb(253, 249, 249); 
+        }
+        .card{
+            display:flex ;
+        }
+        .col1{
+            padding: 15px 50px 15px 150px;
+        }
+        .col2{
+            padding: 15px 50px 15px 50px;
+        }
+        .col3{
+            padding: 15px 50px 15px 50px;
+        }
+        .card1{
+            padding-top: 15px;
+        }
+        #end{
+            background-color: #101D3C;
+            color: white;
+            height: 45px;
+            text-align: center;
+            padding-top: 7px;
+        }
+        span{
+            color: white;
+            font-size: 14px;
+        }
+        span:hover{
+            color: #1973BE;
+        }
+       
+    </style>
+</head>
+<body>
+    <!-------------------------------------------------------------header--------------------------------------------------------->
+    <header>
+        <img src="./images/img6.png" alt="vidyanikethan logo" id="logo">
+       <div id="div">
+        <div class="div1">
+            <a href="">Site Search<i class="fa-solid fa-magnifying-glass"></i></a>\
+            <a href="">A-Z Directory</a>\
+            <a href="">Gallery</a>\
+            <a href="">Careers</a>\
+            <a href="">Alumni</a>\
+            <a href="">Student/Parent NIVA Login</a>\
+            <a href="">Academic Verification</a>\
+            <a href="">Contact Us</a>
+        </div>
+        <div class="div2">
+            <a href=""><i class="fa-solid fa-phone">+91-877-2504888</i></a>
+            <a href=""><i class="fa-solid fa-envelope a1"></i><big>info@vidyanikethan.edu</big></a>
+            <a href=""><big><i class="fa-brands fa-facebook f1"></big></i></a>
+            <a href=""><big><i class="fa-brands fa-twitter f2"></big></i></a>
+            <a href=""><big><i class="fa-brands fa-linkedin-in f3"></big></i></a>
+            <a href=""><big><i class="fa-brands fa-instagram f4"></big></i></a>
+            <a href=""><big><i class="fa-brands fa-youtube f5"></big></i></a>
+        </div>
+        <div id="div4">
+            <div class="div3">
+               <img src="https://www.svec.education/wp-content/uploads/2020/07/nirf-logo.png" alt="nirf-logo" width="60px" height="50px">
+               <img src="https://www.svec.education/wp-content/uploads/2020/01/rank-naac.png" alt="rank-naac" width="70px" height="55px">
+               <img src="https://www.svec.education/wp-content/uploads/2020/01/nba.png" alt="nba" width="45px" height="45px">
+               <img src="https://www.svec.education/wp-content/uploads/2020/07/ugc.png" alt="ugc" width="45px" height="45px">
+               <img src="https://www.svec.education/wp-content/uploads/2021/10/ariia-logo.png" alt="ariia-logo" width="45px" height="45px">
+            </div>
+            <p id="p1">From the Academic Year 2023-2024, admissions through AP EAPCET / AP ECET / AP ICET / AP PGECET will be held with the Counseling code:<span>MBUTPU1 & MBUTPU2</span><br> 
+            Admissions into Diploma through AP POLYCET will be held with the Counseling code: <span>SVNE</span></p>
+        </div>
+       </div>
+    </header>
+    <!------------------------------------------------navbar-------------------------------------------------------------------------->
+    <nav>
+        <div class=" div div1">
+            <a href=""><i class="fa fa-home"></i></a>
+        </div>
+        <div class="div dis0">
+            <a href="">About Us</a>
+            <div class="dis11">
+                <a href="">SVEC at Glance</a>
+                <a href="">Vision & Mission</a>
+                <a href="">Core Values</a>
+                <a href="">Leadership & Administration</a>
+                <a href="">Message from Principal</a>
+                <a href="">Statutory Bodies</a>
+                <a href="">Awards,Accreditations and Recoginitions</a>
+                <a href="">Other institutions</a>
+            </div>
+        </div>
+        <div class="div dis01">
+            <a href="">Admissions</a>
+            <div class="dis12">
+                <a href="">Polytechnic(Diploma)</a>
+                <a href="">Undergraduate Programs(B.Tech)</a>
+                <a href="">Postgraduate Programs(M.Tech)</a>
+                <a href="">Postgraduate Program(MCA)</a>
+                <a href="">Doctoral Programs(Ph.D)</a>
+                <a href="">Prospective Indian Students</a>
+                <a href="">Prospective Foreign Students</a>
+            </div>
+        </div>
+        <div class="div dis02">
+            <a href="">Academics</a>
+            <div class="dis13">
+                <a href="">Departments</a>
+                <a href="">Academic Calendars</a>
+                <a href="">Students Handbook</a>
+                <a href="">Faculty</a>
+            </div>
+        </div>
+        <div class="div">
+            <a href="">Exams</a>
+        </div>
+       <div class="div">
+            <a href="">Research & Consultancy</a>
+       </div>
+       <div class="div">
+            <a href="">Innovation & Entrepreneuship</a>
+        </div>
+        <div class="div">
+            <a href="">Traning & Placements</a>
+        </div>
+         <div class="div">
+            <a href="">Industry Relations</a>
+        </div>
+        <div class=" div dis">
+            <a href="">Campus Life</a>
+            <div class="dis1">
+               <a href="">Student Support</a>
+               <a href="">Student Proffessional Bodies</a>
+               <a href="">Student Clubs</a>
+               <a href="">Facillities</a>
+               <a href="">Green Campus</a>
+               <a href="">Infrastructure</a>
+               <a href="">Transpotation</a>
+               <a href="">Campus Safety</a>
+               <a href="">Guest House</a>
+               <a href="">News Letter(V-Times)</a>
+               <a href="">Anual Events</a>
+               <a href="">Gallery</a>
+            </div>
+        </div>
+    </nav>
+    <!---------------------------------------------------------------body----------------------------------------------------------->
+    <div class="div7">
+        <div id="div5">
+            <p>Placements 2023: Graduating Batch-</p>
+            <p>Placements 2022: Graduating Batch-</p>
+        </div>
+        <div id="div6">
+            <marquee behavior="" direction="">Dream Offers:350+; Companies visited:92 Offers recieved:1807, Highest Package:44lakhs, Average Package:6LPA</marquee>
+            <marquee behavior="" direction=""> &nbsp;&nbsp;&nbsp;Dream Offers:300+; Companies visited:74 Offers recieved:2026, Highest Package:60lakhs, Average Package:5.9LPA</marquee>
+        </div>
+    </div>
+    <!----------------------------------------------------background image---------------------------------------------------------->
+   
+    <div id="card">
+        <img src="./images/img7.png" alt=""class="clgimg">
+        <div class="card1">
+            <h1>SVEC</h1>
+            <h2>Devoloping ingenious knowledge to achieve excellence </h2>
+        </div>
+    </div>
+
+    <!-----------------------------------------Aside(mohanbabu/notifications)-------------------------------------------------->
+
+    <aside id="aside0">
+        <aside id="aside1">
+            <div id="div9">
+                <i class="fa-solid fa-quote-left quote1 quote"></i>
+                <div id="div10">
+                    <a href=""><img src="./images/img10.png" alt="" id="mohanbabuimg"></a>
+                    <a href=""><h4>MESSAGE FROM CHAIRMAN</h4></a>
+                    <a href=""><P>Sree Vidyanikethan Education Trust (SVET) was established in 1992, it has surpassed many a milestone. As an individual, I have the best memories and biggest learning experiences...</P></a>
+                    <button>Read More</button>
+                </div>
+                <i class="fa-solid fa-quote-right quote2 quote"></i>
+            </div>
+            <div id="div9">
+                <i class="fa-solid fa-quote-left quote1 quote"></i>
+                <div id="div10">
+                    <a href=""><img src="./images/img11.png" alt="" id="mohanbabuimg"></a>
+                    <a href=""><h4>MESSAGE FROM CHAIRMAN</h4></a>
+                    <a href=""><P>Whilst Sree Vidyanikethan has marked its successful Silver Jubilee in the field of Education, I express my heartfelt gratitude for all your continued support ...</P></a>
+                    <button>Read More</button>
+                </div>
+                <i class="fa-solid fa-quote-right quote2 quote"></i>
+            </div>
+        </aside>
+        <aside id="aside2">
+            <div id="div11">
+                <div class="div12">
+                    <h5 class="h5">&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-rectangle-list">&nbsp;&nbsp;&nbsp;</i>Notifications</h5>
+                    <div class="div13">
+                        <marquee behavior="" direction="down">
+                            <ul>
+                                <li><a href="">Induction Program for 2020-2021 Batch B.Tech Students</a></li>
+                                <li><a href="">Recruitment Notification for Project Staff</a></li>
+                                <li><a href="">Notification for Formation of Self Help Groups</a></li>
+                                <li><a href="">Application Form for Candidature in Self Help Groups</a></li>
+                                <li><a href="">One week National Level FDP on Amazon Web Services</a></li>
+                                <li><a href="">11th Graduation Day on 21.08.2002</a></li>
+                                <li><a href="">SVEC has signed a MoU with M/S Samparkbindhu Solutions Private Limited,Bengaluru</a></li>
+                                <li><a href="">Tender Notice for AICTE IDEA LAB</a></li>
+                                <li><a href="">Resume of class Work Off-Line</a></li>
+                                <li><a href="">Classwork and Sankranthi Holidays</a></li>
+                                <li><a href="">Academic Calender 2021-22 for II B.Tech I-Semister Lateral Entry</a></li>
+                                <li><a href="">Academic Calender 2021-22 for I B.Tech I-Semister</a></li>
+                                <li><a href="">One day workshop on "Innovation and Product Development"</a></li>
+                                <li><a href="">Academic Calender 2021-22 for MCA</a></li>
+                                
+                            </ul> 
+                        </marquee>
+                    </div>
+                    <div id="div15">
+                        <div class="div19">
+                            <div class="div16">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="div18">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </div>
+                        </div>
+                        <div class="div17">
+                            <button>Read More</button>
+                        </div>
+                    </div> 
+                </div>
+                <div class="div12 di">
+                    <h5 class="h5">&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-rectangle-list">&nbsp;&nbsp;&nbsp;</i>Up Coming Events</h5>
+                    <div class="div13 d">
+                        <marquee behavior="" direction="down">
+                            <ul>
+                                <li><a href="">Induction Program for 2020-2021 Batch B.Tech Students</a></li>
+                                <li><a href="">Recruitment Notification for Project Staff</a></li>
+                                <li><a href="">Notification for Formation of Self Help Groups</a></li>
+                            </ul> 
+                        </marquee>
+                    </div>
+                    <div id="div15">
+                        <div class="div19 div20">
+                            <div class="div16">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="div18">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </div>
+                        </div>
+                        <div class="div17">
+                            <button>Read More</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </aside>
+    </aside>
+    <!---------------------------------------------News and Events----------------------------------->
+    <div class="div21">
+        <div id="hp">
+            <h4 class="h4">&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-rectangle-list">&nbsp;&nbsp;&nbsp;</i>News and Events</h4>
+            <p>All News</p>
+        </div>
+        <div id="div22">
+            <div class="div23 main">
+                <img src="./images/img12.png" alt="">
+                <div class="main1">
+                  <p>SVEC has signed a MoU with M/S Samparkbindhu Solutions Private Limited</p>
+                </div>
+            </div>
+            <div class="div24 main">
+                <img src="./images/img13.png" alt="">
+                <div class="main1">
+                    <p>Recruitment Notification for Project staff adv No:.DST STIH/SHG/01</p>
+                </div>
+            </div>
+            <div class="div25 main">
+                <img src="./images/img14.png" alt="">
+                <div class="main1">
+                    <p>One Week National Level FDP on Amazon Web Services from 22nd to 27th Aug 22 in...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------Achievements---------------------------------------------------------->
+   
+    <div class="div26">
+        <div id="hp1">
+            <h4 class="h4">&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-rectangle-list">&nbsp;&nbsp;&nbsp;</i>achievements</h4>
+            <p>View all</p>
+        </div>
+        <div id="div27">
+            <div class="div28 main3">
+                <img src="./images/img15.png" alt="">
+                <div class="main4">
+                  <p>JNTUA - Recognized Resource Research Centers</p>
+                </div>
+            </div>
+            <div class="div29 main3">
+                <img src="./images/img16.png" alt="">
+                <div class="main4">
+                    <p>UGC - Colleges with Potential for Excellence (CPE)</p>
+                </div>
+            </div>
+            <div class="div30 main3">
+                <img src="./images/img17.png" alt="">
+                <div class="main4">
+                    <p>Certificate - NAAC Acreditation</p>
+                </div>
+            </div>
+            <div class="div31 main3">
+                <img src="./images/img18.png" alt="">
+                <div class="main4">
+                    <p>SVEC Performance Card in ARIIA 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!----------------------------------------Eminent people visited------------------------------------------------------------->
+    <div class="div37">
+        <div id="hp2">
+            <h4 class="h4">&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-rectangle-list">&nbsp;&nbsp;&nbsp;</i>Eminent people visited</h4>
+            <p>View all</p>
+        </div>
+        <div id="div32">
+            <div class="div28 main5">
+                <div class="div36">
+                    <h5 class="h"><b>6th GRADUATION DAY</b></h5>
+                    <h5 class="h">on</h5>
+                    <h5 class="h">July 15,2017</h5>
+                </div>
+                <img src="./images/img19.png" alt="">
+                <div class="main6">
+                  <p>Distinguished Scientist, Dr. A. S. Kir...</p>
+                </div>
+            </div>
+            <div class="div33 main5">
+                <div class="div36">
+                    <h5 class="h"><b>3rd GRADUATION DAY</b></h5>
+                    <h5 class="h">on</h5>
+                    <h5 class="h">July 5,2014</h5>
+                </div>
+                <img src="./images/img20.png" alt="">
+                <div class="main6">
+                    <p>Dr. M. Y. S. Prasad, Distinguished Sci...</p>
+                </div>
+            </div>
+            <div class="div34 main5">
+                <div class="div36">
+                    <h5 class="h"><b>2nd GRADUATION DAY</b></h5>
+                    <h5 class="h">on</h5>
+                    <h5 class="h">October 30,2013</h5>
+                </div>
+                <img src="./images/img21.png" alt="">
+                <div class="main6">
+                    <p>Dr. K. Kasturirangan, renowned Spa...</p>
+                </div>
+            </div>
+            <div class="div35 main5">
+                <div class="div36">
+                    <h5 class="h"><b>1st GRADUATION DAY</b></h5>
+                    <h5 class="h">on</h5>
+                    <h5 class="h">September 1,2012</h5>
+                </div>
+                <img src="./images/img22.png" alt="">
+                <div class="main6">
+                    <p>Dr. iqbal Singh, His Excellency Lt. G.. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------footer--------------------------------------------------------------------->
+    <div id="sec">
+        <div class="row1">
+            <h3 class="he1">Quick Links</h3>
+            <div class="card">
+                <div class="col1">
+                    <ul>
+                        <li><a href="">Admission – Indian Nationals</a></li>
+                        <li><a href="">Admission – Foreign Nationals</a></li>
+                        <li><a href="">Sports & Games</a></li>
+                        <li><a href="">Health & Wellness</a></li>
+                        <li><a href="">Annual Fests</a></li>
+                        <li><a href="">NSS</a></li>
+                        <li><a href="">MGNCRE</a></li>
+                        <li><a href="">Student Council</a></li>
+                        <li><a href="">Alumni</a></li>
+                        <li><a href="">Student/Parent Login</a></li>
+                        <li><a href="">Exam Results</a></li>
+                        <li><a href="">Placements</a></li>
+                        <li><a href="">Hostel & Dining</a></li>
+                        <li><a href="">Transportation</a></li>
+                        <li><a href="">NCC</a></li>
+                    </ul>
+                </div>
+                <div class="col2">
+                    <ul>
+                        <li><a href="">Fee Payment</a></li>
+                        <li><a href="">Library</a></li>
+                        <li><a href="">Facilities</a></li>
+                        <li><a href="">Dispensary</a></li>
+                        <li><a href="">APSSDC – SIEMENS – TSDI</a></li>
+                        <li><a href="">Central Fabrication Unit</a></li>
+                        <li><a href="">Skill Development Centers</a></li>
+                        <li><a href="">PMKVY</a></li>
+                        <li><a href="">TEP</a></li>
+                        <li><a href="">Campus Green</a></li>
+                        <li><a href=""></a>News and Events</li>
+                        <li><a href=""></a>Careers</li>
+                        <li><a href=""></a>Mandatory Disclosure</li>
+                        <li><a href="">STI Hub – SEED, DST</a></li>
+                        <li><a href="">Idea Lab & Innovation</a></li>
+                    </ul>
+                </div>
+                <div class="col3">
+                    <ul>
+                        <li><a href=""></a>Anti-Ragging</li>
+                        <li><a href="">Policy Documents</a></li>
+                        <li><a href=""></a>NAAC</li>
+                        <li><a href=""></a>NBA</li>
+                        <li><a href=""></a>NIRF</li>
+                        <li><a href=""></a>IQAC</li>
+                        <li><a href=""></a>TEQIP-II</li>
+                        <li><a href=""></a>AICTE</li>
+                        <li><a href="">ARIIA</a></li>
+                        <li><a href=""></a>QS Ranking</li>
+                        <li><a href=""></a>Audit Reports</li>
+                        <li><a href="">Best Practices</a></li>
+                        <li><a href="">SVEI</a></li>
+                        <li><a href="">Grievance Redressal</a></li>
+                        <li><a href="">Minority / SC / ST / OBC Cell</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row2">
+            <h3 class="hea1">Contact Us</h3>
+            <div class="card1"> 
+                <p>Sree Vidyanikethan Engineering College</p>
+                <p>Sree Sainath Nagar,</p>
+                <p>Tirupati</p>
+                <p>Chittoor</p>
+                <p>Andhra Pradesh-517102</p>
+                <p>INDIA</p>
+                <br><br>
+                <i class="fa-solid fa-phone">+91-877-2504888</i><br>
+                <i class="fa-solid fa-mobile-screen-button">+91-916-0999977</i><br>
+                <i class="fa-solid fa-envelope a1"></i><big>info@vidyanikethan.edu</big><br><br>
+                <big><i class="fa-brands fa-facebook f1"></big></i>
+                <big><i class="fa-brands fa-twitter f2"></big></i>
+                <big><i class="fa-brands fa-linkedin-in f3"></big></i>
+                <big><i class="fa-brands fa-instagram f4"></big></i>
+                <big><i class="fa-brands fa-youtube f5"></big></i><br><br>
+                <p>College Infrastructure and Administration</p> 
+            </div>
+        </div>
+    </div>
+    <div id="end">
+        <p>©2020 Sree Vidyanikethan Engineering College. All Rights Reserved. Designed and Developed by <span>Okatti Media and Designs</span></p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
